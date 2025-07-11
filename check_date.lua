@@ -1,4 +1,4 @@
-local limit = {year = 2025, month = 7, day = 15}
+local limit = {year = 2025, month = 7, day = 10}
 local now = os.date("*t")
 
 if now.year > limit.year or
